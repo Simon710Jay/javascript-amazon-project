@@ -1,5 +1,5 @@
-const cart = {
-    cartItems: undefined,
+export const cart = {
+    cartItems: [],
 
 loadFromStorage: function () {
 this.cartItems = JSON.parse(localStorage.getItem('cart.oop'));
@@ -73,7 +73,8 @@ updateDeliveryOption(productId, deliveryOptionId) {
 
 cart.loadFromStorage();
 
-console.log(cart);
+cart.addToCart('83d4ca15-0f35-48f5-b7a3-1ea210004f2e')
+
 
 
 
