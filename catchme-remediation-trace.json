@@ -1,0 +1,13 @@
+{
+  "generatedBy": "CatchMe AI",
+  "incident": {
+    "id": "6a024167ee3909073047d418",
+    "title": "TypeError: undefined is not a function at NotificationProcessor.process (internal/queue.js:45:12)",
+    "service": "notification-service"
+  },
+  "analysis": {
+    "probableCause": "Technical cause",
+    "recommendedAction": "Check the code at internal/queue.js:45:12 for undefined function reference and fix it."
+  },
+  "timestamp": "2026-05-14T19:34:26.932Z"
+}
