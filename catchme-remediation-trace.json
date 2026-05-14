@@ -1,0 +1,13 @@
+{
+  "generatedBy": "CatchMe AI",
+  "incident": {
+    "id": "6a0204707300b46f5db0b32c",
+    "title": "FATAL: connection pool exhausted at 100/100 connections",
+    "service": "payment-gateway"
+  },
+  "analysis": {
+    "probableCause": "Insufficient connection pool size and/or inefficient connection reuse",
+    "recommendedAction": "1. Increase the connection pool size to accommodate the expected load.\n2. Implement a more efficient connection reuse strategy (e.g., using a connection pooling library).\n3. Monitor and analyze database query performance to identify potential bottlenecks."
+  },
+  "timestamp": "2026-05-14T22:18:42.521Z"
+}
