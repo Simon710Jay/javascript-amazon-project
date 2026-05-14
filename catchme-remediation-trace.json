@@ -1,0 +1,13 @@
+{
+  "generatedBy": "CatchMe AI",
+  "incident": {
+    "id": "6a0205ab7300b46f5db0b34f",
+    "title": "CRITICAL: Heap memory usage exceeded threshold (98%) - starting garbage collection loop",
+    "service": "auth-service"
+  },
+  "analysis": {
+    "probableCause": "N/A",
+    "recommendedAction": "N/A"
+  },
+  "timestamp": "2026-05-14T22:06:01.890Z"
+}
